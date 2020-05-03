@@ -9,18 +9,18 @@
 - 需要anaconda（非必须，为了配合Windows系统内的自动定时运行）
 
 ## 代码实现
-# 参看我的auto_inform.py
-'''
+- 参看我的auto_inform.py
+```
 def main():
     stuID = ''  # 学号
     name = ''  # 姓名
     personID = ''  # 身份证号后六位
     auto(stuID, name, personID)
-'''
+```
  在对应的引号位置内填入有关信息
  
 ## 自动化处理（可选）
-- 新建bat脚本 以任意名字命名 e.g.'''auto.bat'''
+- 新建bat脚本 以任意名字命名 e.g.```auto.bat```
 ```python
 call 你的anaconda访问路径\Anaconda3\Scripts\activate.bat 你的anaconda访问路径\Anaconda3
 cd /d 你的python文件访问路径（若在C盘则不需要前面的/d）
